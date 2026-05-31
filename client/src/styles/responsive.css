@@ -1,0 +1,42 @@
+@media (max-width: 640px) {
+  .navbar__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--space-md) 0;
+    min-height: auto;
+  }
+
+  .navbar__links {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .hero__actions {
+    flex-direction: column;
+  }
+
+  .hero__actions .btn,
+  .hero__actions a {
+    width: 100%;
+  }
+
+  .hero__actions a .btn {
+    width: 100%;
+  }
+
+  .card {
+    padding: var(--space-lg);
+  }
+
+  .review-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hardware-check__actions {
+    flex-direction: column;
+  }
+
+  .hardware-check__actions .btn {
+    width: 100%;
+  }
+}
